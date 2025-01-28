@@ -1,0 +1,52 @@
+# MNIST Handwritten Digits Recognition - Image Classification  
+
+This project focuses on building a robust image classification model to recognize handwritten digits (0 to 9) using the famous MNIST dataset. The model achieves an impressive **98.38% accuracy** using a **Convolutional Neural Network (CNN)** architecture.  
+
+---
+
+## 📘 **Learning Objectives**  
+Through this project, the following key machine learning concepts were covered:  
+1. **Understanding Classification**:  
+   - Classification models are supervised learning algorithms that categorize input data into predefined labels.  
+   - In this project, the task is to classify 28x28 grayscale images of digits into one of the 10 possible classes (0-9).  
+
+2. **Data Preprocessing Techniques**:  
+   - Normalizing pixel values between 0 and 1  
+   - Reshaping input data to fit CNN layers  
+
+3. **Modeling with CNNs**:
+   - Introduction to Convolutional Neural Networks (CNNs)  
+   - Building layers with Conv2D, MaxPooling, Flatten, and Dense layers  
+   - Understanding activation functions (ReLU, Softmax)  
+
+4. **Evaluation Techniques**:  
+   - Model accuracy measurement  
+   - Validation data usage  
+   - Confusion matrix for classification analysis  
+
+---
+
+## 📊 **Dataset Information**  
+- The MNIST dataset contains **49,000 training images** of handwritten digits, each of size **28x28 pixels** in grayscale.  
+- Dataset is available for download here: [DataHack Practice Problem](https://datahack.analyticsvidhya.com/contest/practice-problem-identify-the-digits/)  
+
+---
+
+## 🔧 **Tech Stack & Libraries Used**  
+- **Pandas**: Data manipulation and analysis  
+- **Matplotlib**: Data visualization for plots  
+- **Keras**: High-level API for building neural networks  
+- **TensorFlow**: Deep learning backend  
+- **scikit-learn**: Model evaluation and utility functions  
+
+---
+
+## 🧠 **Model Architecture**  
+1. **Input Layer:** Reshaped image tensors  
+2. **Convolutional Layer:** Feature extraction from image pixels  
+3. **Max Pooling:** Downsampling to reduce computation  
+4. **Fully Connected Layer:** Dense layer for decision-making  
+5. **Output Layer:** Softmax activation for 10-class probability prediction  
+
+```plaintext
+Conv2D → MaxPooling → Flatten → Dense(128) → Dense(10)
