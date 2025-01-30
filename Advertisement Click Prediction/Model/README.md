@@ -77,5 +77,5 @@ Model Building: We implemented the following algorithms for their distinct advan
 ### 📢 **Conclusion**
 Among all the models tested, the **XGBoost Classifier** achieved the highest accuracy, approximately **92%**, making it the best-performing model for predicting advertisement clicks. This demonstrates its effectiveness in handling the dataset and providing reliable predictions.
 
-### ✒️ **Your Signature**
-Created by [Suraj Kashyap](https://github.com/imsuraj675) as a part of SSOC'24.
+
+Created by [Tarun Shankar U](https://github.com/TarunShankarU). 
