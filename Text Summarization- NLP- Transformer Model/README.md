@@ -1,9 +1,5 @@
 # **Abstractive Text Summarization - Transformer Model - NLP**  
 
-📺 **Complete Video Tutorial:** [YouTube](https://youtu.be/Lh7KUFu9Dy0)  
-
----
-
 ## **Project Overview**  
 This project focuses on generating abstractive summaries from lengthy articles using advanced natural language processing (NLP) techniques. Unlike extractive methods that copy text fragments, abstractive summarization understands and paraphrases the content to create concise, meaningful summaries.  
 
@@ -25,11 +21,6 @@ This solution is particularly useful for processing news articles, research pape
 - **NumPy & Pandas**: Data manipulation and handling  
 - **Matplotlib**: Visualization of performance metrics  
 
----
-
-## **Model Architecture**  
-This project utilizes a **Transformer Network**, a groundbreaking architecture introduced in "Attention Is All You Need" by Vaswani et al. Transformers efficiently capture long-term dependencies and parallelize training, making them ideal for text summarization tasks.  
-
 Key highlights of the architecture:  
 - **Self-Attention Mechanism:** Helps the model focus on relevant parts of the input text  
 - **Positional Encoding:** Maintains sequential relationships between words  
@@ -48,8 +39,8 @@ Key highlights of the architecture:
 ## **Project Usage**  
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/abstractive-text-summarization.git
-    cd abstractive-text-summarization
+    git clone https://github.com/TarunShankarU/Text Summarization-NLP- Transformer Model
+    cd Text Summarization-NLP- Transformer Model
     ```  
 
 2. Install required libraries:
@@ -69,6 +60,3 @@ Key highlights of the architecture:
 ## **Performance and Accuracy**  
 The Transformer-based model consistently generates meaningful summaries that retain essential information with reduced redundancy.  
 
----
-
-Feel free to enhance or customize this README further as your project evolves! 
